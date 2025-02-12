@@ -1,0 +1,249 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: white;
+  height: 100vh;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+#main {
+  background: url(img/main.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 6%;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.4);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  background-color: rgba(50, 50, 50, 0.512);
+}
+
+header .header-logo {
+  width: 150px;
+}
+
+header img {
+  width: 100%;
+  height: 100%;
+}
+
+.header-nav a {
+  margin-left: 16px;
+  font-size: 20px;
+  transition: all 0.5s;
+}
+
+.header-nav a:hover {
+  color: rgba(108, 170, 46, 0.641);
+}
+
+.main-icerik {
+  padding: 300px;
+  text-align: center;
+}
+
+.main-icerik h1 {
+  font-size: 72px;
+  margin-bottom: 20px;
+  box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.4);
+  letter-spacing: 3px;
+}
+
+.main-icerik p {
+  font-size: 27px;
+}
+
+#about {
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 5%;
+}
+
+.about-icerik {
+  padding: 0 24px;
+}
+
+.about-icerik h2 {
+  font-size: 64px;
+  line-height: 72px;
+  margin-bottom: 24px;
+}
+
+#battle {
+  background-image: radial-gradient(circle, rgba(0, 0, 0, 0) 0%, black 80%),
+    url(img/sec-2.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+
+  padding: 100px;
+}
+
+.battle-top {
+  text-align: center;
+  padding: 32px;
+}
+
+.battle-top h4 {
+  font-size: 24px;
+}
+
+.battle-top h2 {
+  font-size: 60px;
+  letter-spacing: 6px;
+}
+
+.battle-bottom {
+  width: 670px;
+  height: 500px;
+  display: flex;
+  align-items: end;
+  justify-content: end;
+
+  flex-wrap: wrap;
+  margin-top: 100px;
+}
+
+.battle-box {
+  padding: 60px auto;
+  width: 300px;
+  height: 120px;
+  border: 1px solid white;
+  margin-bottom: 16px;
+  padding: 12px;
+}
+
+.battle-box:last-child {
+  width: 600px;
+}
+
+.battle-box h5 {
+  font-size: 20px;
+  color: crimson;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+#opinions {
+  height: 100vh;
+  background: url(img/sec-3.png);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  pad: 0 auto;
+}
+.left {
+  width: 1000px;
+}
+
+.left-div {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.left h2 {
+  font-size: 72px;
+}
+
+.left h5 {
+  font-size: 20px;
+}
+
+.left button {
+  margin-top: 32px;
+  padding: 8px 32px;
+  border-radius: 4px;
+  color: black;
+  background-color: red;
+
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.left button:hover {
+  color: red;
+  background-color: black;
+}
+
+.right {
+  width: 700px;
+ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.box {
+  width: 425px;
+  height: 100%;
+  margin: 16px;
+  padding: 16px;
+  background-color: #252323;
+  border-radius: 16px;
+
+}
+
+.box-top {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin: 16px;
+}
+
+.box-name h4 {
+  color: crimson;
+  font-size: 26px;
+}
+
+.box-name p {
+  color: gray;
+  font-size: 14px;
+}
+
+.msg-bottom {
+  color: gray;
+  font-size: 14px;
+}
+
+.first {
+  align-self: flex-start;
+}
