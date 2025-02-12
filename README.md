@@ -4,4 +4,4 @@
 
 <a href="https://art-of-wars.netlify.app/">Projenin Canlı Hali İçin Tıklayın..</a>
 
-<img href="live.gif">
+<img src="live.gif">
